@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "265068898133",
+    "firebase_url": "https://fastsocks-1d39d.firebaseio.com",
+    "project_id": "fastsocks-1d39d",
+    "storage_bucket": "fastsocks-1d39d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:265068898133:android:ebb7a0797509815e",
+        "android_client_info": {
+          "package_name": "com.me.fastsocks_simple"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "265068898133-99ue5kpnn7mluiulbbej7lavd6kqb9ti.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.me.fastsocks_simple",
+            "certificate_hash": "f57ed671ef949b6a931bc6e66b1b117e50a9a70f"
+          }
+        },
+        {
+          "client_id": "265068898133-36tmphci673kv7jcu25kingei3p1rmkq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCDOIC_cOQDXu8a9M4QkzT4XdzB_86nZL0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "265068898133-36tmphci673kv7jcu25kingei3p1rmkq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

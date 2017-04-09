@@ -18,10 +18,10 @@
 ANDROID_ABI:UNINITIALIZED=armeabi-v7a
 
 //No help, variable specified on the command line.
-ANDROID_NDK:UNINITIALIZED=/Users/zhuqian/Desktop/java/sdk/ndk-bundle
+ANDROID_NATIVE_API_LEVEL:UNINITIALIZED=14
 
 //No help, variable specified on the command line.
-ANDROID_PLATFORM:UNINITIALIZED=android-14
+ANDROID_NDK:UNINITIALIZED=/Users/zhuqian/Desktop/java/sdk/ndk-bundle
 
 //No help, variable specified on the command line.
 ANDROID_STL:UNINITIALIZED=gnustl_static

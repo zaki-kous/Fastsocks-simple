@@ -1,0 +1,22 @@
+# ninja log v5
+1	78	0	CMakeFiles/Common.dir/common/FileLog.cpp.o	fe3f0b3d07cda67d
+0	273	0	CMakeFiles/Common.dir/common/FormatTools.cpp.o	1b4581b9e690f5d
+1	281	0	CMakeFiles/Common.dir/common/android_jni.cpp.o	1c0125e428a39687
+281	362	0	libCommon.a	b60152810d024899
+362	458	0	CMakeFiles/TcpNet.dir/tcp/ByteArray.cpp.o	9f7732c9b6f8e699
+362	1034	0	CMakeFiles/TcpNet.dir/tcp/ByteStream.cpp.o	e0f5c16e923037b6
+363	1076	0	CMakeFiles/TcpNet.dir/tcp/BufferStorage.cpp.o	18a985093cc04401
+363	1173	0	CMakeFiles/TcpNet.dir/tcp/EventsDispatcher.cpp.o	8319ab024f6a57bf
+458	1230	0	CMakeFiles/TcpNet.dir/tcp/NetworkMessage.cpp.o	81038ee0c409bef0
+363	1250	0	CMakeFiles/TcpNet.dir/tcp/Timer.cpp.o	1051b7dfe9113f6e
+362	1299	0	CMakeFiles/TcpNet.dir/tcp/TcpSocket.cpp.o	af08d53f5234f5b2
+364	1305	0	CMakeFiles/TcpNet.dir/tcp/Request.cpp.o	6618e7bb09ae81f0
+362	1392	0	CMakeFiles/TcpNet.dir/tcp/NativeByteBuffer.cpp.o	6333b20a75593af1
+362	1465	0	CMakeFiles/TcpNet.dir/tcp/TcpConnection.cpp.o	319b6f9af2433c3f
+1076	1678	0	CMakeFiles/TcpNet.dir/tcp/TcpNetWapper.cpp.o	782c9653cb52a2cf
+363	1809	0	CMakeFiles/TcpNet.dir/tcp/Datacenter.cpp.o	f806d7772985d093
+1035	2577	0	CMakeFiles/TcpNet.dir/tcp/ConnectionsManager.cpp.o	4363305ff532ca3c
+2577	2616	0	libTcpNet.a	1fc22b9548353ccc
+2616	2678	0	CMakeFiles/fastsocks.dir/jni.c.o	c1dc2ff1384f2e38
+2616	3006	0	CMakeFiles/fastsocks.dir/NativeLoader.cpp.o	5a30c09f792b2fad
+3006	3230	0	/Users/zhuqian/Desktop/me_work/Fastsocks-simple/fastsocks/build/intermediates/cmake/release/obj/armeabi-v7a/libfastsocks.so	d44e16377d94d9ac

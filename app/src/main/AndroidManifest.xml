@@ -15,6 +15,10 @@
 
     <uses-permission android:name="android.permission.WAKE_LOCK" />
 
+    <permission
+        android:name="GCM_PERMISSION"
+        android:protectionLevel="signature" />
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -34,6 +38,19 @@
 
         <service android:name="com.me.fastsocks.service.CoreService"
             />
+
+        <!--start fcm-->
+        <service android:name=".sys.MsgReceptorService">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+        <service android:name=".sys.TokenCreaterService">
+            <intent-filter>
+                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
+            </intent-filter>
+        </service>
+        <!--end fcm-->
 
         <receiver android:name="com.me.fastsocks.tcp.receiver.CoreRestartReceiver">
             <intent-filter>
