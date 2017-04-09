@@ -57,10 +57,10 @@ public class ConnectionsManager {
      * 连接状态
      */
     public enum ConnectionState{
-        UNKNOWN(-1),
-        ConnectionStateConnecting(1),
-        ConnectionStateWaitingForNetwork(2),
-        ConnectionStateConnected(3);
+        UNKNOWN(-1),//未知
+        ConnectionStateConnecting(1),//连接中
+        ConnectionStateWaitingForNetwork(2),//没有网络
+        ConnectionStateConnected(3);//连接成功
 
         private final int state;
 
@@ -126,7 +126,7 @@ public class ConnectionsManager {
         UNKNOWN(0),//未知
         FlagWithoutAck(1),//没有回包
         FlagReSend(2),//数据包可以重发
-        FlagWithoutLogin(4);//数据包在握手之前发送
+        FlagWithoutLogin(4);//数据包可以在握手之前发送
 
         private final int flags;
         RequestFlag(int flags){
@@ -148,7 +148,13 @@ public class ConnectionsManager {
         }
     }
 
-    //设置信息
+    /**
+     * 初始化，必须要有。
+     *
+     * @param dispatcherDelegate       代理
+     * @param context                  上下文
+     * @param crashPath                崩溃路径
+     */
     public void init(PacketDispatcherDelegate dispatcherDelegate, Context context,
                      String crashPath){
         this.context = context;

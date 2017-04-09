@@ -6,7 +6,7 @@ import android.content.Intent;
 import com.me.fastsocks.service.CoreService;
 
 /**
- * Created by zhuqian on 17/4/8.
+ * Created by zaki on 17/4/8.
  */
 
 public class StartUtils {
