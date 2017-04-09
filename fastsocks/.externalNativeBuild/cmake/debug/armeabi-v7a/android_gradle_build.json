@@ -1,0 +1,184 @@
+
+{
+	"buildFiles" : 
+	[
+		"/Users/zhuqian/Desktop/me_work/Fastsocks-simple/fastsocks/cpp/CMakeLists.txt"
+	],
+	"cFileExtensions" : [ "c" ],
+	"cleanCommands" : 
+	[
+		"/Users/zhuqian/Desktop/java/sdk/cmake/3.6.3155560/bin/cmake --build /Users/zhuqian/Desktop/me_work/Fastsocks-simple/fastsocks/.externalNativeBuild/cmake/debug/armeabi-v7a --target clean"
+	],
+	"cppFileExtensions" : [ "cpp" ],
+	"libraries" : 
+	{
+		"Common-Debug-armeabi-v7a" : 
+		{
+			"abi" : "armeabi-v7a",
+			"artifactName" : "Common",
+			"buildCommand" : "/Users/zhuqian/Desktop/java/sdk/cmake/3.6.3155560/bin/cmake --build /Users/zhuqian/Desktop/me_work/Fastsocks-simple/fastsocks/.externalNativeBuild/cmake/debug/armeabi-v7a --target Common",
+			"buildType" : "debug",
+			"files" : 
+			[
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi --gcc-toolchain=/Users/zhuqian/Desktop/java/sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/zhuqian/Desktop/java/sdk/ndk-bundle/platforms/android-14/arch-arm   -I/Users/zhuqian/Desktop/me_work/Fastsocks-simple/fastsocks/cpp/common -I/Users/zhuqian/Desktop/me_work/Fastsocks-simple/fastsocks/cpp/breakpad -I/Users/zhuqian/Desktop/me_work/Fastsocks-simple/fastsocks/cpp/breakpad/common/android/include -I/Users/zhuqian/Desktop/me_work/Fastsocks-simple/fastsocks/cpp/boringssl/include -isystem /Users/zhuqian/Desktop/java/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /Users/zhuqian/Desktop/java/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi-v7a/include -isystem /Users/zhuqian/Desktop/java/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/backward  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -std=c++11 -frtti -fexceptions -DANDROID -DDEBUG -O0 -fno-limit-debug-info -O0 -fno-limit-debug-info     -c ",
+					"src" : "/Users/zhuqian/Desktop/me_work/Fastsocks-simple/fastsocks/cpp/common/FormatTools.cpp",
+					"workingDirectory" : "/Users/zhuqian/Desktop/me_work/Fastsocks-simple/fastsocks/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi --gcc-toolchain=/Users/zhuqian/Desktop/java/sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/zhuqian/Desktop/java/sdk/ndk-bundle/platforms/android-14/arch-arm   -I/Users/zhuqian/Desktop/me_work/Fastsocks-simple/fastsocks/cpp/common -I/Users/zhuqian/Desktop/me_work/Fastsocks-simple/fastsocks/cpp/breakpad -I/Users/zhuqian/Desktop/me_work/Fastsocks-simple/fastsocks/cpp/breakpad/common/android/include -I/Users/zhuqian/Desktop/me_work/Fastsocks-simple/fastsocks/cpp/boringssl/include -isystem /Users/zhuqian/Desktop/java/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /Users/zhuqian/Desktop/java/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi-v7a/include -isystem /Users/zhuqian/Desktop/java/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/backward  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -std=c++11 -frtti -fexceptions -DANDROID -DDEBUG -O0 -fno-limit-debug-info -O0 -fno-limit-debug-info     -c ",
+					"src" : "/Users/zhuqian/Desktop/me_work/Fastsocks-simple/fastsocks/cpp/common/android_jni.cpp",
+					"workingDirectory" : "/Users/zhuqian/Desktop/me_work/Fastsocks-simple/fastsocks/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi --gcc-toolchain=/Users/zhuqian/Desktop/java/sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/zhuqian/Desktop/java/sdk/ndk-bundle/platforms/android-14/arch-arm   -I/Users/zhuqian/Desktop/me_work/Fastsocks-simple/fastsocks/cpp/common -I/Users/zhuqian/Desktop/me_work/Fastsocks-simple/fastsocks/cpp/breakpad -I/Users/zhuqian/Desktop/me_work/Fastsocks-simple/fastsocks/cpp/breakpad/common/android/include -I/Users/zhuqian/Desktop/me_work/Fastsocks-simple/fastsocks/cpp/boringssl/include -isystem /Users/zhuqian/Desktop/java/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /Users/zhuqian/Desktop/java/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi-v7a/include -isystem /Users/zhuqian/Desktop/java/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/backward  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -std=c++11 -frtti -fexceptions -DANDROID -DDEBUG -O0 -fno-limit-debug-info -O0 -fno-limit-debug-info     -c ",
+					"src" : "/Users/zhuqian/Desktop/me_work/Fastsocks-simple/fastsocks/cpp/common/FileLog.cpp",
+					"workingDirectory" : "/Users/zhuqian/Desktop/me_work/Fastsocks-simple/fastsocks/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				}
+			],
+			"output" : "/Users/zhuqian/Desktop/me_work/Fastsocks-simple/fastsocks/.externalNativeBuild/cmake/debug/armeabi-v7a/libCommon.a",
+			"toolchain" : "9863938857117120821"
+		},
+		"TcpNet-Debug-armeabi-v7a" : 
+		{
+			"abi" : "armeabi-v7a",
+			"artifactName" : "TcpNet",
+			"buildCommand" : "/Users/zhuqian/Desktop/java/sdk/cmake/3.6.3155560/bin/cmake --build /Users/zhuqian/Desktop/me_work/Fastsocks-simple/fastsocks/.externalNativeBuild/cmake/debug/armeabi-v7a --target TcpNet",
+			"buildType" : "debug",
+			"files" : 
+			[
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi --gcc-toolchain=/Users/zhuqian/Desktop/java/sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/zhuqian/Desktop/java/sdk/ndk-bundle/platforms/android-14/arch-arm   -I/Users/zhuqian/Desktop/me_work/Fastsocks-simple/fastsocks/cpp/common -I/Users/zhuqian/Desktop/me_work/Fastsocks-simple/fastsocks/cpp/breakpad -I/Users/zhuqian/Desktop/me_work/Fastsocks-simple/fastsocks/cpp/breakpad/common/android/include -I/Users/zhuqian/Desktop/me_work/Fastsocks-simple/fastsocks/cpp/boringssl/include -isystem /Users/zhuqian/Desktop/java/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /Users/zhuqian/Desktop/java/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi-v7a/include -isystem /Users/zhuqian/Desktop/java/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/backward  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -std=c++11 -frtti -fexceptions -DANDROID -DDEBUG -O0 -fno-limit-debug-info -O0 -fno-limit-debug-info     -c ",
+					"src" : "/Users/zhuqian/Desktop/me_work/Fastsocks-simple/fastsocks/cpp/tcp/TcpSocket.cpp",
+					"workingDirectory" : "/Users/zhuqian/Desktop/me_work/Fastsocks-simple/fastsocks/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi --gcc-toolchain=/Users/zhuqian/Desktop/java/sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/zhuqian/Desktop/java/sdk/ndk-bundle/platforms/android-14/arch-arm   -I/Users/zhuqian/Desktop/me_work/Fastsocks-simple/fastsocks/cpp/common -I/Users/zhuqian/Desktop/me_work/Fastsocks-simple/fastsocks/cpp/breakpad -I/Users/zhuqian/Desktop/me_work/Fastsocks-simple/fastsocks/cpp/breakpad/common/android/include -I/Users/zhuqian/Desktop/me_work/Fastsocks-simple/fastsocks/cpp/boringssl/include -isystem /Users/zhuqian/Desktop/java/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /Users/zhuqian/Desktop/java/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi-v7a/include -isystem /Users/zhuqian/Desktop/java/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/backward  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -std=c++11 -frtti -fexceptions -DANDROID -DDEBUG -O0 -fno-limit-debug-info -O0 -fno-limit-debug-info     -c ",
+					"src" : "/Users/zhuqian/Desktop/me_work/Fastsocks-simple/fastsocks/cpp/tcp/TcpConnection.cpp",
+					"workingDirectory" : "/Users/zhuqian/Desktop/me_work/Fastsocks-simple/fastsocks/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi --gcc-toolchain=/Users/zhuqian/Desktop/java/sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/zhuqian/Desktop/java/sdk/ndk-bundle/platforms/android-14/arch-arm   -I/Users/zhuqian/Desktop/me_work/Fastsocks-simple/fastsocks/cpp/common -I/Users/zhuqian/Desktop/me_work/Fastsocks-simple/fastsocks/cpp/breakpad -I/Users/zhuqian/Desktop/me_work/Fastsocks-simple/fastsocks/cpp/breakpad/common/android/include -I/Users/zhuqian/Desktop/me_work/Fastsocks-simple/fastsocks/cpp/boringssl/include -isystem /Users/zhuqian/Desktop/java/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /Users/zhuqian/Desktop/java/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi-v7a/include -isystem /Users/zhuqian/Desktop/java/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/backward  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -std=c++11 -frtti -fexceptions -DANDROID -DDEBUG -O0 -fno-limit-debug-info -O0 -fno-limit-debug-info     -c ",
+					"src" : "/Users/zhuqian/Desktop/me_work/Fastsocks-simple/fastsocks/cpp/tcp/ByteArray.cpp",
+					"workingDirectory" : "/Users/zhuqian/Desktop/me_work/Fastsocks-simple/fastsocks/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi --gcc-toolchain=/Users/zhuqian/Desktop/java/sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/zhuqian/Desktop/java/sdk/ndk-bundle/platforms/android-14/arch-arm   -I/Users/zhuqian/Desktop/me_work/Fastsocks-simple/fastsocks/cpp/common -I/Users/zhuqian/Desktop/me_work/Fastsocks-simple/fastsocks/cpp/breakpad -I/Users/zhuqian/Desktop/me_work/Fastsocks-simple/fastsocks/cpp/breakpad/common/android/include -I/Users/zhuqian/Desktop/me_work/Fastsocks-simple/fastsocks/cpp/boringssl/include -isystem /Users/zhuqian/Desktop/java/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /Users/zhuqian/Desktop/java/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi-v7a/include -isystem /Users/zhuqian/Desktop/java/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/backward  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -std=c++11 -frtti -fexceptions -DANDROID -DDEBUG -O0 -fno-limit-debug-info -O0 -fno-limit-debug-info     -c ",
+					"src" : "/Users/zhuqian/Desktop/me_work/Fastsocks-simple/fastsocks/cpp/tcp/ByteStream.cpp",
+					"workingDirectory" : "/Users/zhuqian/Desktop/me_work/Fastsocks-simple/fastsocks/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi --gcc-toolchain=/Users/zhuqian/Desktop/java/sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/zhuqian/Desktop/java/sdk/ndk-bundle/platforms/android-14/arch-arm   -I/Users/zhuqian/Desktop/me_work/Fastsocks-simple/fastsocks/cpp/common -I/Users/zhuqian/Desktop/me_work/Fastsocks-simple/fastsocks/cpp/breakpad -I/Users/zhuqian/Desktop/me_work/Fastsocks-simple/fastsocks/cpp/breakpad/common/android/include -I/Users/zhuqian/Desktop/me_work/Fastsocks-simple/fastsocks/cpp/boringssl/include -isystem /Users/zhuqian/Desktop/java/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /Users/zhuqian/Desktop/java/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi-v7a/include -isystem /Users/zhuqian/Desktop/java/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/backward  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -std=c++11 -frtti -fexceptions -DANDROID -DDEBUG -O0 -fno-limit-debug-info -O0 -fno-limit-debug-info     -c ",
+					"src" : "/Users/zhuqian/Desktop/me_work/Fastsocks-simple/fastsocks/cpp/tcp/NativeByteBuffer.cpp",
+					"workingDirectory" : "/Users/zhuqian/Desktop/me_work/Fastsocks-simple/fastsocks/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi --gcc-toolchain=/Users/zhuqian/Desktop/java/sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/zhuqian/Desktop/java/sdk/ndk-bundle/platforms/android-14/arch-arm   -I/Users/zhuqian/Desktop/me_work/Fastsocks-simple/fastsocks/cpp/common -I/Users/zhuqian/Desktop/me_work/Fastsocks-simple/fastsocks/cpp/breakpad -I/Users/zhuqian/Desktop/me_work/Fastsocks-simple/fastsocks/cpp/breakpad/common/android/include -I/Users/zhuqian/Desktop/me_work/Fastsocks-simple/fastsocks/cpp/boringssl/include -isystem /Users/zhuqian/Desktop/java/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /Users/zhuqian/Desktop/java/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi-v7a/include -isystem /Users/zhuqian/Desktop/java/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/backward  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -std=c++11 -frtti -fexceptions -DANDROID -DDEBUG -O0 -fno-limit-debug-info -O0 -fno-limit-debug-info     -c ",
+					"src" : "/Users/zhuqian/Desktop/me_work/Fastsocks-simple/fastsocks/cpp/tcp/BufferStorage.cpp",
+					"workingDirectory" : "/Users/zhuqian/Desktop/me_work/Fastsocks-simple/fastsocks/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi --gcc-toolchain=/Users/zhuqian/Desktop/java/sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/zhuqian/Desktop/java/sdk/ndk-bundle/platforms/android-14/arch-arm   -I/Users/zhuqian/Desktop/me_work/Fastsocks-simple/fastsocks/cpp/common -I/Users/zhuqian/Desktop/me_work/Fastsocks-simple/fastsocks/cpp/breakpad -I/Users/zhuqian/Desktop/me_work/Fastsocks-simple/fastsocks/cpp/breakpad/common/android/include -I/Users/zhuqian/Desktop/me_work/Fastsocks-simple/fastsocks/cpp/boringssl/include -isystem /Users/zhuqian/Desktop/java/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /Users/zhuqian/Desktop/java/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi-v7a/include -isystem /Users/zhuqian/Desktop/java/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/backward  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -std=c++11 -frtti -fexceptions -DANDROID -DDEBUG -O0 -fno-limit-debug-info -O0 -fno-limit-debug-info     -c ",
+					"src" : "/Users/zhuqian/Desktop/me_work/Fastsocks-simple/fastsocks/cpp/tcp/EventsDispatcher.cpp",
+					"workingDirectory" : "/Users/zhuqian/Desktop/me_work/Fastsocks-simple/fastsocks/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi --gcc-toolchain=/Users/zhuqian/Desktop/java/sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/zhuqian/Desktop/java/sdk/ndk-bundle/platforms/android-14/arch-arm   -I/Users/zhuqian/Desktop/me_work/Fastsocks-simple/fastsocks/cpp/common -I/Users/zhuqian/Desktop/me_work/Fastsocks-simple/fastsocks/cpp/breakpad -I/Users/zhuqian/Desktop/me_work/Fastsocks-simple/fastsocks/cpp/breakpad/common/android/include -I/Users/zhuqian/Desktop/me_work/Fastsocks-simple/fastsocks/cpp/boringssl/include -isystem /Users/zhuqian/Desktop/java/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /Users/zhuqian/Desktop/java/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi-v7a/include -isystem /Users/zhuqian/Desktop/java/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/backward  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -std=c++11 -frtti -fexceptions -DANDROID -DDEBUG -O0 -fno-limit-debug-info -O0 -fno-limit-debug-info     -c ",
+					"src" : "/Users/zhuqian/Desktop/me_work/Fastsocks-simple/fastsocks/cpp/tcp/Timer.cpp",
+					"workingDirectory" : "/Users/zhuqian/Desktop/me_work/Fastsocks-simple/fastsocks/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi --gcc-toolchain=/Users/zhuqian/Desktop/java/sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/zhuqian/Desktop/java/sdk/ndk-bundle/platforms/android-14/arch-arm   -I/Users/zhuqian/Desktop/me_work/Fastsocks-simple/fastsocks/cpp/common -I/Users/zhuqian/Desktop/me_work/Fastsocks-simple/fastsocks/cpp/breakpad -I/Users/zhuqian/Desktop/me_work/Fastsocks-simple/fastsocks/cpp/breakpad/common/android/include -I/Users/zhuqian/Desktop/me_work/Fastsocks-simple/fastsocks/cpp/boringssl/include -isystem /Users/zhuqian/Desktop/java/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /Users/zhuqian/Desktop/java/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi-v7a/include -isystem /Users/zhuqian/Desktop/java/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/backward  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -std=c++11 -frtti -fexceptions -DANDROID -DDEBUG -O0 -fno-limit-debug-info -O0 -fno-limit-debug-info     -c ",
+					"src" : "/Users/zhuqian/Desktop/me_work/Fastsocks-simple/fastsocks/cpp/tcp/Datacenter.cpp",
+					"workingDirectory" : "/Users/zhuqian/Desktop/me_work/Fastsocks-simple/fastsocks/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi --gcc-toolchain=/Users/zhuqian/Desktop/java/sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/zhuqian/Desktop/java/sdk/ndk-bundle/platforms/android-14/arch-arm   -I/Users/zhuqian/Desktop/me_work/Fastsocks-simple/fastsocks/cpp/common -I/Users/zhuqian/Desktop/me_work/Fastsocks-simple/fastsocks/cpp/breakpad -I/Users/zhuqian/Desktop/me_work/Fastsocks-simple/fastsocks/cpp/breakpad/common/android/include -I/Users/zhuqian/Desktop/me_work/Fastsocks-simple/fastsocks/cpp/boringssl/include -isystem /Users/zhuqian/Desktop/java/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /Users/zhuqian/Desktop/java/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi-v7a/include -isystem /Users/zhuqian/Desktop/java/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/backward  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -std=c++11 -frtti -fexceptions -DANDROID -DDEBUG -O0 -fno-limit-debug-info -O0 -fno-limit-debug-info     -c ",
+					"src" : "/Users/zhuqian/Desktop/me_work/Fastsocks-simple/fastsocks/cpp/tcp/Request.cpp",
+					"workingDirectory" : "/Users/zhuqian/Desktop/me_work/Fastsocks-simple/fastsocks/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi --gcc-toolchain=/Users/zhuqian/Desktop/java/sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/zhuqian/Desktop/java/sdk/ndk-bundle/platforms/android-14/arch-arm   -I/Users/zhuqian/Desktop/me_work/Fastsocks-simple/fastsocks/cpp/common -I/Users/zhuqian/Desktop/me_work/Fastsocks-simple/fastsocks/cpp/breakpad -I/Users/zhuqian/Desktop/me_work/Fastsocks-simple/fastsocks/cpp/breakpad/common/android/include -I/Users/zhuqian/Desktop/me_work/Fastsocks-simple/fastsocks/cpp/boringssl/include -isystem /Users/zhuqian/Desktop/java/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /Users/zhuqian/Desktop/java/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi-v7a/include -isystem /Users/zhuqian/Desktop/java/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/backward  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -std=c++11 -frtti -fexceptions -DANDROID -DDEBUG -O0 -fno-limit-debug-info -O0 -fno-limit-debug-info     -c ",
+					"src" : "/Users/zhuqian/Desktop/me_work/Fastsocks-simple/fastsocks/cpp/tcp/NetworkMessage.cpp",
+					"workingDirectory" : "/Users/zhuqian/Desktop/me_work/Fastsocks-simple/fastsocks/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi --gcc-toolchain=/Users/zhuqian/Desktop/java/sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/zhuqian/Desktop/java/sdk/ndk-bundle/platforms/android-14/arch-arm   -I/Users/zhuqian/Desktop/me_work/Fastsocks-simple/fastsocks/cpp/common -I/Users/zhuqian/Desktop/me_work/Fastsocks-simple/fastsocks/cpp/breakpad -I/Users/zhuqian/Desktop/me_work/Fastsocks-simple/fastsocks/cpp/breakpad/common/android/include -I/Users/zhuqian/Desktop/me_work/Fastsocks-simple/fastsocks/cpp/boringssl/include -isystem /Users/zhuqian/Desktop/java/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /Users/zhuqian/Desktop/java/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi-v7a/include -isystem /Users/zhuqian/Desktop/java/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/backward  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -std=c++11 -frtti -fexceptions -DANDROID -DDEBUG -O0 -fno-limit-debug-info -O0 -fno-limit-debug-info     -c ",
+					"src" : "/Users/zhuqian/Desktop/me_work/Fastsocks-simple/fastsocks/cpp/tcp/ConnectionsManager.cpp",
+					"workingDirectory" : "/Users/zhuqian/Desktop/me_work/Fastsocks-simple/fastsocks/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi --gcc-toolchain=/Users/zhuqian/Desktop/java/sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/zhuqian/Desktop/java/sdk/ndk-bundle/platforms/android-14/arch-arm   -I/Users/zhuqian/Desktop/me_work/Fastsocks-simple/fastsocks/cpp/common -I/Users/zhuqian/Desktop/me_work/Fastsocks-simple/fastsocks/cpp/breakpad -I/Users/zhuqian/Desktop/me_work/Fastsocks-simple/fastsocks/cpp/breakpad/common/android/include -I/Users/zhuqian/Desktop/me_work/Fastsocks-simple/fastsocks/cpp/boringssl/include -isystem /Users/zhuqian/Desktop/java/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /Users/zhuqian/Desktop/java/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi-v7a/include -isystem /Users/zhuqian/Desktop/java/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/backward  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -std=c++11 -frtti -fexceptions -DANDROID -DDEBUG -O0 -fno-limit-debug-info -O0 -fno-limit-debug-info     -c ",
+					"src" : "/Users/zhuqian/Desktop/me_work/Fastsocks-simple/fastsocks/cpp/tcp/TcpNetWapper.cpp",
+					"workingDirectory" : "/Users/zhuqian/Desktop/me_work/Fastsocks-simple/fastsocks/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				}
+			],
+			"output" : "/Users/zhuqian/Desktop/me_work/Fastsocks-simple/fastsocks/.externalNativeBuild/cmake/debug/armeabi-v7a/libTcpNet.a",
+			"toolchain" : "9863938857117120821"
+		},
+		"fastsocks-Debug-armeabi-v7a" : 
+		{
+			"abi" : "armeabi-v7a",
+			"artifactName" : "fastsocks",
+			"buildCommand" : "/Users/zhuqian/Desktop/java/sdk/cmake/3.6.3155560/bin/cmake --build /Users/zhuqian/Desktop/me_work/Fastsocks-simple/fastsocks/.externalNativeBuild/cmake/debug/armeabi-v7a --target fastsocks",
+			"buildType" : "debug",
+			"files" : 
+			[
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi --gcc-toolchain=/Users/zhuqian/Desktop/java/sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/zhuqian/Desktop/java/sdk/ndk-bundle/platforms/android-14/arch-arm -Dfastsocks_EXPORTS -I/Users/zhuqian/Desktop/me_work/Fastsocks-simple/fastsocks/cpp/common -I/Users/zhuqian/Desktop/me_work/Fastsocks-simple/fastsocks/cpp/breakpad -I/Users/zhuqian/Desktop/me_work/Fastsocks-simple/fastsocks/cpp/breakpad/common/android/include -I/Users/zhuqian/Desktop/me_work/Fastsocks-simple/fastsocks/cpp/boringssl/include  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "/Users/zhuqian/Desktop/me_work/Fastsocks-simple/fastsocks/cpp/jni.c",
+					"workingDirectory" : "/Users/zhuqian/Desktop/me_work/Fastsocks-simple/fastsocks/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi --gcc-toolchain=/Users/zhuqian/Desktop/java/sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/zhuqian/Desktop/java/sdk/ndk-bundle/platforms/android-14/arch-arm  -Dfastsocks_EXPORTS -I/Users/zhuqian/Desktop/me_work/Fastsocks-simple/fastsocks/cpp/common -I/Users/zhuqian/Desktop/me_work/Fastsocks-simple/fastsocks/cpp/breakpad -I/Users/zhuqian/Desktop/me_work/Fastsocks-simple/fastsocks/cpp/breakpad/common/android/include -I/Users/zhuqian/Desktop/me_work/Fastsocks-simple/fastsocks/cpp/boringssl/include -isystem /Users/zhuqian/Desktop/java/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /Users/zhuqian/Desktop/java/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi-v7a/include -isystem /Users/zhuqian/Desktop/java/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/backward  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -std=c++11 -frtti -fexceptions -DANDROID -DDEBUG -O0 -fno-limit-debug-info -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "/Users/zhuqian/Desktop/me_work/Fastsocks-simple/fastsocks/cpp/NativeLoader.cpp",
+					"workingDirectory" : "/Users/zhuqian/Desktop/me_work/Fastsocks-simple/fastsocks/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				}
+			],
+			"output" : "/Users/zhuqian/Desktop/me_work/Fastsocks-simple/fastsocks/build/intermediates/cmake/debug/obj/armeabi-v7a/libfastsocks.so",
+			"toolchain" : "9863938857117120821"
+		},
+		"lib_breakpad-Debug-armeabi-v7a" : 
+		{
+			"abi" : "armeabi-v7a",
+			"artifactName" : "lib_breakpad",
+			"buildType" : "debug",
+			"output" : "/Users/zhuqian/Desktop/me_work/Fastsocks-simple/fastsocks/cpp/breakpad/library/armeabi-v7a/libbreakpad.a",
+			"toolchain" : "9863938857117120821"
+		},
+		"lib_crypto-Debug-armeabi-v7a" : 
+		{
+			"abi" : "armeabi-v7a",
+			"artifactName" : "lib_crypto",
+			"buildType" : "debug",
+			"output" : "/Users/zhuqian/Desktop/me_work/Fastsocks-simple/fastsocks/cpp/boringssl/lib/armeabi-v7a/libcrypto_armeabi-v7a.a",
+			"toolchain" : "9863938857117120821"
+		}
+	},
+	"toolchains" : 
+	{
+		"9863938857117120821" : 
+		{
+			"cCompilerExecutable" : "/Users/zhuqian/Desktop/java/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang",
+			"cppCompilerExecutable" : "/Users/zhuqian/Desktop/java/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++"
+		}
+	}
+}

@@ -1,0 +1,5 @@
+/Users/zhuqian/Desktop/me_work/Fastsocks-simple/fastsocks/.externalNativeBuild/cmake/release/armeabi-v7a/CMakeFiles/edit_cache.dir
+/Users/zhuqian/Desktop/me_work/Fastsocks-simple/fastsocks/.externalNativeBuild/cmake/release/armeabi-v7a/CMakeFiles/rebuild_cache.dir
+/Users/zhuqian/Desktop/me_work/Fastsocks-simple/fastsocks/.externalNativeBuild/cmake/release/armeabi-v7a/CMakeFiles/Common.dir
+/Users/zhuqian/Desktop/me_work/Fastsocks-simple/fastsocks/.externalNativeBuild/cmake/release/armeabi-v7a/CMakeFiles/fastsocks.dir
+/Users/zhuqian/Desktop/me_work/Fastsocks-simple/fastsocks/.externalNativeBuild/cmake/release/armeabi-v7a/CMakeFiles/TcpNet.dir
